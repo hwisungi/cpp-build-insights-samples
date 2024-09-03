@@ -140,7 +140,7 @@ int main(int argc, char *argv[])
 
     auto analyzers = MakeStaticAnalyzerGroup(&perfDataCollector);
 
-    assert(options.traceFilePaths != empty);
+    assert(!options.traceFilePaths.empty());
     for (auto traceFilePath : options.traceFilePaths)
     {
         std::wcout << L"Analyzing " << traceFilePath << L"..." << std::endl;
