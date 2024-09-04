@@ -19,6 +19,7 @@ This repository provides buildable and runnable samples for the C++ Build Insigh
 | Sample            | Description                                |
 |-------------------|--------------------------------------------|
 | BottleneckCompileFinder | Finds CL invocations that are bottlenecks and don't use /MP. |
+| CAToolsetPerfDataCollector | Prints summary of Code Analysis time relative to overall execution time. Optionally prints the summary for each source file. |
 | FunctionBottlenecks | Prints a list of functions that are code generation bottlenecks within their CL or Link invocation. |
 | LongCodeGenFinder | Lists the functions that take more than 500 milliseconds to generate in your entire build. |
 | RecursiveTemplateInspector | Identifies costly recursive template instantiations. |
@@ -52,7 +53,8 @@ In order to build and run the samples in this repository, you need:
         1. Build your project. You do not need to use the same command prompt for building.
         1. Run the following command: `vcperf /stopnoanalyze MySessionName outputTraceFile.etl`
     1. Programmatically: see the [C++ Build Insights SDK](https://docs.microsoft.com/cpp/build-insights/reference/sdk/overview?view=vs-2019) documentation for details.
-1. Invoke the sample, passing your trace as the first parameter.
+1. Invoke the sample, passing your trace as the first parameter. CAToolsetPerfDataCollector has options to output results in different formats. Run the application without parameter or option to print the help on the options.  
+
 
 ## Contributing
 
