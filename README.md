@@ -35,6 +35,8 @@ In order to build and run the samples in this repository, you need:
 - Visual Studio 2017 and above.
 - Windows 8 and above.
 
+CAToolsetPerfDataCollector requires compiler and Code Analysis toolsets availabe in Visual Studio 2022 17.11 and later.
+
 ## Build steps
 
 1. Clone the repository on your machine.
