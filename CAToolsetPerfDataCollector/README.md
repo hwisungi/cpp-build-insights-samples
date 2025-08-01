@@ -16,7 +16,7 @@ This sample BuildInsights SDK application reads one or more Event Trace Log (ETW
 
 ## Prerequisites
 
-This sample BuildInsights SDK application requires MSVC compiler and MSVC CA toolsets that are availabe in Visual Studio 2022 17.11 or later. It also requires BuildInsights SDK version 1.4.1 or later.
+This sample BuildInsights SDK application requires MSVC compiler and MSVC CA toolsets that are available in Visual Studio 2022 17.11 or later. It also requires BuildInsights SDK version 1.4.1 or later.
 
 ## Overview
 
@@ -36,7 +36,7 @@ This application can process one or more ETW log files (*.etl files) at once to 
 
   This is a set of rows with performance numbers (in unit of milliseconds) - each row corresponding to each of the Translation units that are compiled and analyzed – in CSV (comma-separated-values) format. This allows users to process the data further and create various reports using tools like MS Excel. 
 
-Running the application will provide help on the options it supports:
+Running the application without any option or input will provide help on the options it supports:
 
 ```
 c:\bisamples\out\x64\Debug\CodeAnalysisPerfDataCollector> CodeAnalysisPerfDataCollector.exe
@@ -48,14 +48,14 @@ Usage: "CodeAnalysisPerfDataCollector" [-v[erbose]] [-f[ormat]:Summary|CSV|Both]
 Option names and values are case-insensitive.
 ```
 
-By default is will print CA performance summary report. If "-f:CSV" option is specified, it will print per translation unit performance data in CSV format for each and every translation unit that is built and analyzed. If "-f:both" option is specified, it will print both CA performance summary report and per translation unit performance data.
+By default it will print CA performance summary report. If "-f:CSV" option is specified, it will print per translation unit performance data in CSV format for each and every translation unit that is built and analyzed. If "-f:both" option is specified, it will print both CA performance summary report and per translation unit performance data.
 
 ## Example Outputs
 
 ### CA Performance Summary Report
 This is a example output of CA performance data summary report. Please note that the actual execution times and their relative percentage numbers will vary project by project, as well as CA configurations.
 
-Percentage number for each child is ralative to its immediate parent. So, sum of the percentage numbers for all of the siblings should always equal to 100%.
+Percentage number for each child is relative to its immediate parent. So, the sum of the percentage numbers for all of the siblings should always equal 100%.
 
 ```
 Number of TUs successfully analyzed: 3289 
@@ -87,7 +87,7 @@ Number of TUs with long Code Analysis Pass compared to Front End Pass:
 
 ### Per translation unit Performance Data in CSV Format
 
-Here is an example of the per translation performance data output. First row is the colum header, and the rest are per translation unit performance data - i.e., execution times of each step in milliseconds.
+Here is an example of the per translation unit performance data output. First row is the column header, and the rest are per translation unit performance data - i.e., execution times of each step in milliseconds.
 
 This can be imported into tools like MS Excel to create various reports.
 
