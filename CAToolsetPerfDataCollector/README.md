@@ -91,6 +91,6 @@ Here is an example of the per translation unit performance data output. First ro
 
 This can be imported into tools like MS Excel to create various reports.
 
-File Path, Front End Pass, BackEnd Pass, Code Analysis Pass, AST Creation, AST Clients, Function Analysis, FPA Function Analysis, EspX CFG Build, EspX Function Analysis, EspX Path-sensitive Analysis
-d:\test\file1.cpp, 253976, 111859, 5077991, 14019, 249835, 229841, 84557, 0, 0, 0
+File Path, Front End Pass, BackEnd Pass, Code Analysis Pass, AST Creation, AST Clients, Function Analysis, FPA Function Analysis, EspX CFG Build, EspX Function Analysis, EspX Path-sensitive Analysis\
+d:\test\file1.cpp, 253976, 111859, 5077991, 14019, 249835, 229841, 84557, 0, 0, 0\
 d:\test\file2.cpp, 0, 0, 108231, 56, 467, 312, 123, 0, 0, 0
