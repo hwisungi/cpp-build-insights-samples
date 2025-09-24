@@ -33,8 +33,8 @@ This repository provides buildable and runnable samples for the C++ Build Insigh
 In order to build and run the samples in this repository, you need:
 
 - Visual Studio 2022 and above (requires platform toolset version v143).
-- BuildInsights SDK version 1.4.1 or later
-- Windows 8 and above.
+- BuildInsights SDK version 1.4.2 or later
+- Windows 10 and above. Windows 11 is recommended.
 
 CAToolsetPerfDataCollector requires compiler and Code Analysis toolsets available in Visual Studio 2022 17.11 and later.
 

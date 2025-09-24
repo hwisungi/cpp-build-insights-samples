@@ -16,7 +16,7 @@ This sample BuildInsights SDK application reads one or more Event Trace Log (ETW
 
 ## Prerequisites
 
-This sample BuildInsights SDK application requires MSVC compiler and MSVC CA toolsets that are available in Visual Studio 2022 17.11 or later. It also requires BuildInsights SDK version 1.4.1 or later.
+This sample BuildInsights SDK application requires MSVC compiler and MSVC CA toolsets that are available in Visual Studio 2022 17.11 or later. It also requires BuildInsights SDK version 1.4.2 or later.
 
 ## Overview
 
